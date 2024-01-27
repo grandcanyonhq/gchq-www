@@ -1,0 +1,13 @@
+{% comment %}
+Usage: {% responsive_image path: assets/image.jpg, width: 1000, class: "" %}
+{% endcomment %}
+
+{% assign src = resized | where: 'width', width | first %}
+
+{% capture srcset %}
+{% for i in resized %}
+    /{{ i.path }} {{ i.width }}w,
+{% endfor %}
+{% endcapture %}
+
+<img src="/{{ src.path }}" width="{{ width }}" class="{{ class }}" srcset="{{ srcset | strip_newlines }}">

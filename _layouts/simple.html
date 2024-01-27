@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Grand Canyon Headquarters - {{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <script src="//unpkg.com/alpinejs" defer></script>
+
+    <link rel="canonical" href="{{site.domain}}" />
+
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{site.title}}" />
+    <meta property="og:url" content="{{site.domain}}" />
+    <meta property="og:site_name" content="{{site.title}}" />
+    <meta property="og:image" content="/assets/img/casitas.jpg" />
+    <meta name="description" content="{{site.description}}" />
+    <meta property="og:description" content="{{site.description}}" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png" />
+  </head>
+  <body class="min-w-96">
+    <header class="absolute inset-x-0 top-0 z-50" x-data="{ open: false }">
+      <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+        <div class="flex lg:flex-1">
+          <a href="/" class="-m-1.5 p-1.5">
+            <span class="sr-only">Grand Canyon Headquarters</span>
+            <img class="h-8 w-auto" src="/assets/img/gchq_logo.png" alt="" />
+          </a>
+        </div>
+        <div class="pl-3 lg:flex lg:flex-1 lg:justify-end">
+          <a href="/" class="text-md font-bold leading-6 text-amber-600 text-nowrap hover:opacity-75">Go to Website<span aria-hidden="true">&rarr;</span></a>
+        </div>
+      </nav>
+    </header>
+
+    <main>{{ content }}</main>
+
+    <footer class="" aria-labelledby="footer-heading">
+      <div class="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
+        <div class="mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 lg:mt-24">
+          <p class="text-xs leading-5 text-gray-500">&copy; {{ site.time | date: '%Y' }} Grand Canyon Headquarters, LLC</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
