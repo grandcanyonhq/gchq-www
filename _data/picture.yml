@@ -7,11 +7,11 @@ media_queries:
 
 presets:
   default:
-    formats: [webp, original]
+    formats: [original]
     widths: [200, 400, 800, 1600]
 
   tile:
-    formats: [webp, original]
+    formats: [original]
     widths: [200, 400, 600, 800, 1000, 1200, 1400]
     size: 600px
     sizes:
