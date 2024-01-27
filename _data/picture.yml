@@ -7,26 +7,17 @@ media_queries:
 
 presets:
   default:
-    formats: [webp, jp2, original]
+    formats: [webp, original]
     widths: [200, 400, 800, 1600]
 
   tile:
-    formats: [webp, jp2, original]
+    formats: [webp, original]
     widths: [200, 400, 600, 800, 1000, 1200, 1400]
     size: 600px
     sizes:
       md: 300px
+    fallback_width: 600
     crop: "1:1"
     keep: center
-    # format_quality:
-    #   jpg:
-    #     1400: 60
-    #     200: 90
-    #   webp:
-    #     1400: 60
-    #     200: 90
-    #   jp2:
-    #     1400: 60
-    #     200: 90
     attributes:
       img: 'class="h-full w-full object-cover object-center group-hover:opacity-75"'
