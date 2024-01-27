@@ -19,6 +19,7 @@ group :jekyll_plugins do
   gem "jekyll-postcss"
   gem "jekyll-responsive-image"
   gem "jekyll-sitemap"
+  gem "jekyll_picture_tag", git: "https://github.com/philrb/jekyll_picture_tag.git", branch: "fix-vips"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

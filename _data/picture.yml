@@ -1,0 +1,23 @@
+media_queries:
+  sm: "min-width: 640px"
+  md: "min-width: 768px"
+  lg: "min-width: 1024px"
+  xl: "min-width: 1280px"
+  2xl: "min-width: 1536px"
+
+presets:
+  default:
+    formats: [original]
+    widths: [200, 400, 800, 1600]
+
+  tile:
+    formats: [webp, jp2, original]
+    widths: [200, 400, 600, 800, 1000, 1200, 1400]
+    size: 600px
+    sizes:
+      md: 300px
+    fallback_width: 600
+    crop: "1:1"
+    keep: center
+    attributes:
+      img: 'class="h-full w-full object-cover object-center group-hover:opacity-75"'
