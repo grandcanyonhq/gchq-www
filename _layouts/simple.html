@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="/assets/css/main.css" />
     <script src="//unpkg.com/alpinejs" defer></script>
 
+    {% if page.noindex %}
+      <meta name="robots" content="noindex, nofollow"/>
+    {% endif %}
+
     <link rel="canonical" href="{{site.domain}}" />
 
     <meta property="og:locale" content="en_US" />

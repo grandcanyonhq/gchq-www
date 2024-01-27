@@ -74,6 +74,7 @@ exclude:
   - package.json
   - Makefile
   - README.md
+  - vercel.json
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
