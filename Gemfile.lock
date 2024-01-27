@@ -1,3 +1,16 @@
+GIT
+  remote: https://github.com/philrb/jekyll_picture_tag.git
+  revision: bbe444c32bcb1ea46e5441c362a1e6d1a992b2cb
+  branch: fix-vips
+  specs:
+    jekyll_picture_tag (2.0.4)
+      addressable (~> 2.6)
+      jekyll (~> 4.0)
+      mime-types (~> 3.0)
+      objective_elements (~> 1.1)
+      rainbow (~> 3.0)
+      ruby-vips (~> 2.0.17)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -44,13 +57,6 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    jekyll_picture_tag (2.0.4)
-      addressable (~> 2.6)
-      jekyll (~> 4.0)
-      mime-types (~> 3.0)
-      objective_elements (~> 1.1)
-      rainbow (~> 3.0)
-      ruby-vips (~> 2.0.17)
     kramdown (2.4.0)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -115,7 +121,7 @@ DEPENDENCIES
   jekyll-postcss
   jekyll-responsive-image
   jekyll-sitemap
-  jekyll_picture_tag
+  jekyll_picture_tag!
   observer
   rmagick
   tzinfo (>= 1, < 3)
