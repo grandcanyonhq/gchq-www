@@ -23,3 +23,6 @@ This website is automatically deployed with [Vercel](https://vercel.com/grandcan
   * https://shopify.github.io/liquid/
   * https://developers.google.com/maps/documentation/places/web-service/place-id
   * https://developers.google.com/maps/documentation/embed/embedding-map#directions_mode
+  * https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/srcset
+  * https://tailwindcss.com/docs/responsive-design
+
