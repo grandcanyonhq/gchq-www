@@ -20,5 +20,6 @@ This website is automatically deployed with [Vercel](https://vercel.com/grandcan
 
 ## Docs
   * https://jekyllrb.com/docs/
+  * https://shopify.github.io/liquid/
   * https://developers.google.com/maps/documentation/places/web-service/place-id
   * https://developers.google.com/maps/documentation/embed/embedding-map#directions_mode
