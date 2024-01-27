@@ -37,6 +37,7 @@ permalink: /:categories/:year/:month/:day/:title
 plugins:
   - jekyll-postcss
   - jekyll-responsive-image
+  - jekyll-sitemap
 
 postcss:
   cache: false
