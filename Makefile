@@ -4,4 +4,8 @@ run:
 build:
 	JEKYLL_ENV=production bundle exec jekyll build
 
-.PHONY: run build
+clean:
+	rm -r assets/imgs
+	rm -r _site
+
+.PHONY: run build clean

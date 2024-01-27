@@ -53,9 +53,9 @@ responsive_image:
     - width: 100
       quality: 90
     - width: 300
-      quality: 80 
+      quality: 75 
     - width: 500
-      quality: 75
+      quality: 70
     - width: 750
     - width: 1000
     - width: 1500

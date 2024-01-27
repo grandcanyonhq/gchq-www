@@ -45,4 +45,4 @@ Usage: {% responsive_image path: assets/image.jpg, width: 1000, class: "", sizes
 
 {% assign src = resized | where: 'width', width | first %}
 
-<img src="/{{ src.path }}" sizes="{{ _sizes | strip_newlines }} (min-width: 0px) {{width}}px" class="{{ class }}" srcset="{{ srcset | strip_newlines }}">
+<img src="/{{ src.path }}" sizes="{{ _sizes | strip_newlines }} (min-width: 1px) {{width}}px" class="{{ class }}" srcset="{{ srcset | strip_newlines }}">
