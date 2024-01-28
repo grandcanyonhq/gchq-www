@@ -16,7 +16,7 @@ presets:
     size: 600px
     fallback_width: 600
     crop: "16:9"
-    keep: attention
+    keep: center
 
   teaser:
     formats: [webp, jp2, original]
