@@ -17,7 +17,6 @@ gem "jekyll", "~> 4.3.3"
 group :jekyll_plugins do
   # gem "jekyll-feed", "~> 0.12"
   gem "jekyll-postcss"
-  gem "jekyll-responsive-image"
   gem "jekyll-sitemap"
   gem "jekyll_picture_tag", git: "https://github.com/philrb/jekyll_picture_tag.git", branch: "fix-vips"
 end
