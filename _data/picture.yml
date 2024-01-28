@@ -7,7 +7,7 @@ media_queries:
 
 presets:
   default:
-    formats: [original]
+    formats: [webp, jp2, original]
     widths: [200, 400, 800, 1600]
 
   banner:
@@ -37,5 +37,3 @@ presets:
     fallback_width: 600
     crop: "1:1"
     keep: center
-    attributes:
-      img: 'class="h-full w-full group-hover:opacity-75"'
