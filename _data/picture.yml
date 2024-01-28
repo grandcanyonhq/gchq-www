@@ -10,6 +10,24 @@ presets:
     formats: [original]
     widths: [200, 400, 800, 1600]
 
+  banner:
+    formats: [webp, jp2, original]
+    widths: [600, 800, 1000, 1200, 1400]
+    size: 600px
+    fallback_width: 600
+    crop: "16:9"
+    keep: attention
+
+  teaser:
+    formats: [webp, jp2, original]
+    widths: [400, 600, 800, 1000, 1200, 1400]
+    size: 600px
+    sizes:
+      lg: 400px
+    fallback_width: 600
+    crop: "1:1"
+    keep: attention
+
   tile:
     formats: [webp, jp2, original]
     widths: [200, 400, 600, 800, 1000, 1200, 1400]
