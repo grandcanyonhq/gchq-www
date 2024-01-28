@@ -7,7 +7,6 @@ It's a static website built with [Jekyll](https://jekyllrb.com). It's nothing fa
 
 ```
 # Install Ruby, check .ruby-version
-# Install libvips-tools (optional)
 bundle install
 yarn install
 make run
