@@ -1,6 +1,38 @@
 ---
 title: The Property
 layout: default
+
+gallery1:
+  - img: property/signage.jpg
+    title: Welcome Sign
+  - img: property/truck.jpg
+    title: Vintage Truck
+  - img: property/campfire.jpg
+    title: Campfire
+  - img: property/milkyway.jpg
+    title: Stargazing
+
+gallery2:
+  - img: property/commons.jpg
+    title: The Commons
+  - img: property/reception_1.jpg
+    title: Front Desk
+  - img: property/reception_2.jpg
+    title: Reception
+  - img: property/canteen.jpg
+    title: The Canteen
+  - img: property/bathroom.jpg
+    title: Bathroom
+  - img: property/lounge_area_1.jpg
+    title: The Lounge
+  - img: property/lounge_area_2.jpg
+    title: Communal Dining
+  - img: property/fireplace.jpg
+    title: Wood Burning Stove
+  - img: property/outdoor_1.jpg
+    title: Outdoor Patio
+  - img: property/outdoor_2.jpg
+    title: Landscape
 ---
 
 <div class="mt-32 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8">{% picture banner property.jpg 16:7 --img class="w-full object-cover xl:rounded-3xl h-96" %}</div>
@@ -12,28 +44,7 @@ layout: default
   </div>
 </div>
 
-<div class="bg-white">
-  <div class="mx-auto max-w-2xl px-4 lg:px-8 py-8 lg:max-w-7xl">
-    <div class="grid grid-cols-1 gap-x-6 gap-y-16 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
-      <a href="#" class="group">
-        <div class="w-full h-full overflow-hidden rounded-lg bg-gray-200">{% picture tile property/signage.jpg --img class="h-full w-full group-hover:opacity-75" %}</div>
-        <h3 class="p-2 text-gray-600 text-md">Welcome Sign</h3>
-      </a>
-      <a href="#" class="group">
-        <div class="w-full h-full overflow-hidden rounded-lg bg-gray-200">{% picture tile property/truck.jpg --img class="h-full w-full group-hover:opacity-75" %}</div>
-        <h3 class="p-2 text-gray-600 text-md">Vintage Truck</h3>
-      </a>
-      <a href="#" class="group">
-        <div class="w-full h-full overflow-hidden rounded-lg bg-gray-200">{% picture tile property/campfire.jpg --img class="h-full w-full group-hover:opacity-75" %}</div>
-        <h3 class="p-2 text-gray-600 text-md">Campfire</h3>
-      </a>
-      <a href="#" class="group">
-        <div class="w-full h-full overflow-hidden rounded-lg bg-gray-200">{% picture tile property/milkyway.jpg --img class="h-full w-full group-hover:opacity-75" %}</div>
-        <h3 class="p-2 text-gray-600 text-md">Stargazing</h3>
-      </a>
-    </div>
-  </div>
-</div>
+{% include gallery.html gallery=page.gallery1 %}
 
 <div class="mx-auto mt-16 max-w-7xl px-6 lg:px-8">
   <div class="mx-auto lg:mx-0">
@@ -42,49 +53,4 @@ layout: default
   </div>
 </div>
 
-<div class="bg-white">
-  <div class="mx-auto max-w-2xl px-4 lg:px-8 py-8 lg:max-w-7xl">
-    <div class="grid grid-cols-1 gap-x-6 gap-y-16 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
-      <a href="#" class="group">
-        <div class="w-full h-full overflow-hidden rounded-lg bg-gray-200">{% picture tile property/commons.jpg --img class="h-full w-full group-hover:opacity-75" %}</div>
-        <h3 class="p-2 text-gray-600 text-md">The Commons</h3>
-      </a>
-      <a href="#" class="group">
-        <div class="w-full h-full overflow-hidden rounded-lg bg-gray-200">{% picture tile property/reception_1.jpg --img class="h-full w-full group-hover:opacity-75" %}</div>
-        <h3 class="p-2 text-gray-600 text-md">Front Desk</h3>
-      </a>
-      <a href="#" class="group">
-        <div class="w-full h-full overflow-hidden rounded-lg bg-gray-200">{% picture tile property/reception_2.jpg --img class="h-full w-full group-hover:opacity-75" %}</div>
-        <h3 class="p-2 text-gray-600 text-md">Reception</h3>
-      </a>
-      <a href="#" class="group">
-        <div class="w-full h-full overflow-hidden rounded-lg bg-gray-200">{% picture tile property/canteen.jpg --img class="h-full w-full group-hover:opacity-75" %}</div>
-        <h3 class="p-2 text-gray-600 text-md">The Canteen</h3>
-      </a>
-      <a href="#" class="group">
-        <div class="w-full h-full overflow-hidden rounded-lg bg-gray-200">{% picture tile property/bathroom.jpg --img class="h-full w-full group-hover:opacity-75" %}</div>
-        <h3 class="p-2 text-gray-600 text-md">Bathroom</h3>
-      </a>
-      <a href="#" class="group">
-        <div class="w-full h-full overflow-hidden rounded-lg bg-gray-200">{% picture tile property/lounge_area_1.jpg --img class="h-full w-full group-hover:opacity-75" %}</div>
-        <h3 class="p-2 text-gray-600 text-md">The Lounge</h3>
-      </a>
-      <a href="#" class="group">
-        <div class="w-full h-full overflow-hidden rounded-lg bg-gray-200">{% picture tile property/lounge_area_2.jpg --img class="h-full w-full group-hover:opacity-75" %}</div>
-        <h3 class="p-2 text-gray-600 text-md">Communal Dining</h3>
-      </a>
-      <a href="#" class="group">
-        <div class="w-full h-full overflow-hidden rounded-lg bg-gray-200">{% picture tile property/fireplace.jpg --img class="h-full w-full group-hover:opacity-75" %}</div>
-        <h3 class="p-2 text-gray-600 text-md">Wood Burning Stove</h3>
-      </a>
-      <a href="#" class="group">
-        <div class="w-full h-full overflow-hidden rounded-lg bg-gray-200">{% picture tile property/outdoor_1.jpg --img class="h-full w-full group-hover:opacity-75" %}</div>
-        <h3 class="p-2 text-gray-600 text-md">Outdoor Patio</h3>
-      </a>
-      <a href="#" class="group">
-        <div class="w-full h-full overflow-hidden rounded-lg bg-gray-200">{% picture tile property/outdoor_2.jpg --img class="h-full w-full group-hover:opacity-75" %}</div>
-        <h3 class="p-2 text-gray-600 text-md">Landscape</h3>
-      </a>
-    </div>
-  </div>
-</div>
+{% include gallery.html gallery=page.gallery2 %}

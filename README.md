@@ -27,3 +27,7 @@ This website is automatically deployed with [Vercel](https://vercel.com/grandcan
   * https://tailwindcss.com/docs/responsive-design
   * https://github.com/rbuchberger/jekyll_picture_tag
   * https://rbuchberger.github.io/jekyll_picture_tag/users/installation
+
+## Todos
+
+  * [Cache images with vercel](https://vercel.com/docs/deployments/troubleshoot-a-build#what-is-cached)

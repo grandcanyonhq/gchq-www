@@ -35,5 +35,17 @@ presets:
     sizes:
       md: 300px
     fallback_width: 600
-    crop: "1:1"
+    crop: "8:7"
+    keep: center
+
+  gallery:
+    formats: [webp, jp2, original]
+    widths: [800, 1000, 1200, 1400]
+    size: 800px
+    sizes:
+      xl: 1200px
+      md: 1000px
+      sm: 800px
+    fallback_width: 800
+    crop: "4:3"
     keep: center

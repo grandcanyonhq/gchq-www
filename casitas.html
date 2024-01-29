@@ -1,6 +1,24 @@
 ---
 title: Casitas
 layout: default
+
+gallery1:
+  - img: casitas/bedroom_1.jpg
+    title: Bedroom
+  - img: casitas/bedroom_2.jpg
+    title: Brooklinen Bedding
+  - img: casitas/living_room.jpg
+    title: Living Area
+  - img: casitas/bathroom.jpg
+    title: Bathroom
+  - img: casitas/kitchen_1.jpg
+    title: Kitchenette
+  - img: casitas/kitchen_2.jpg
+    title: Dishware
+  - img: casitas/patio.jpg
+    title: Private Patio
+  - img: casitas/outdoor.jpg
+    title: Outdoor Area
 ---
 
 <div class="mt-32 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8">{% picture banner casitas.jpg --img class="w-full object-cover xl:rounded-3xl h-96" %}</div>
@@ -128,44 +146,7 @@ layout: default
   </div>
 </div>
 
-<div class="bg-white">
-  <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-    <div class="grid grid-cols-1 gap-x-6 gap-y-16 sm:grid-cols-2 xl:grid-cols-4 xl:gap-x-8">
-      <a href="#" class="group">
-        <div class="h-full w-full overflow-hidden rounded-lg bg-gray-200">{% picture tile casitas/bedroom_1.jpg --img class="h-full w-full group-hover:opacity-75" %}</div>
-        <h3 class="p-2 text-gray-600 text-md">Bedroom</h3>
-      </a>
-      <a href="#" class="group">
-        <div class="h-full w-full overflow-hidden rounded-lg bg-gray-200">{% picture tile casitas/bedroom_2.jpg --img class="h-full w-full group-hover:opacity-75" %}</div>
-        <h3 class="p-2 text-gray-600 text-md">Brooklinen Bedding</h3>
-      </a>
-      <a href="#" class="group">
-        <div class="h-full w-full overflow-hidden rounded-lg bg-gray-200">{% picture tile casitas/living_room.jpg --img class="h-full w-full group-hover:opacity-75" %}</div>
-        <h3 class="p-2 text-gray-600 text-md">Living Area</h3>
-      </a>
-      <a href="#" class="group">
-        <div class="h-full w-full overflow-hidden rounded-lg bg-gray-200">{% picture tile casitas/bathroom.jpg --img class="h-full w-full group-hover:opacity-75" %}</div>
-        <h3 class="p-2 text-gray-600 text-md">Bathroom</h3>
-      </a>
-      <a href="#" class="group">
-        <div class="h-full w-full overflow-hidden rounded-lg bg-gray-200">{% picture tile casitas/kitchen_1.jpg --img class="h-full w-full group-hover:opacity-75" %}</div>
-        <h3 class="p-2 text-gray-600 text-md">Kitchenette</h3>
-      </a>
-      <a href="#" class="group">
-        <div class="h-full w-full overflow-hidden rounded-lg bg-gray-200">{% picture tile casitas/kitchen_2.jpg --img class="h-full w-full group-hover:opacity-75" %}</div>
-        <h3 class="p-2 text-gray-600 text-md">Dishware</h3>
-      </a>
-      <a href="#" class="group">
-        <div class="h-full w-full overflow-hidden rounded-lg bg-gray-200">{% picture tile casitas/patio.jpg --img class="h-full w-full group-hover:opacity-75" %}</div>
-        <h3 class="p-2 text-gray-600 text-md">Private Patio</h3>
-      </a>
-      <a href="#" class="group">
-        <div class="h-full w-full overflow-hidden rounded-lg bg-gray-200">{% picture tile casitas/outdoor.jpg --img class="h-full w-full group-hover:opacity-75" %}</div>
-        <h3 class="p-2 text-gray-600 text-md">Outdoor Area</h3>
-      </a>
-    </div>
-  </div>
-</div>
+{% include gallery.html gallery=page.gallery1 %}
 
 <div class="bg-gray-50 py-24 sm:py-32">
   <div class="relative isolate">
