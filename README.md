@@ -27,6 +27,7 @@ This website is automatically deployed with [Vercel](https://vercel.com/grandcan
   * https://tailwindcss.com/docs/responsive-design
   * https://github.com/rbuchberger/jekyll_picture_tag
   * https://rbuchberger.github.io/jekyll_picture_tag/users/installation
+  * https://developers.google.com/maps/documentation/embed/get-api-key
 
 ## Todos
 

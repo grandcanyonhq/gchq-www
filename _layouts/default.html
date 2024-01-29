@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    {% include google_analytics.html %}
     <meta charset="utf-8" />
     <title>Grand Canyon Headquarters - {{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -51,7 +52,7 @@
           <a href="/contact" class="text-md font-bold leading-6 text-gray-900">Contact</a>
         </div>
         <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="{{site.resnexus_booking_link}}" class="text-md font-bold leading-6 text-gray-900">Book your stay <span aria-hidden="true">&rarr;</span></a>
+          <a href="{{site.resnexus_booking_link}}" target="_blank" class="text-md font-bold leading-6 text-gray-900">Book your stay <span aria-hidden="true">&rarr;</span></a>
         </div>
       </nav>
 
@@ -82,7 +83,7 @@
                 <a href="/contact" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Contact</a>
               </div>
               <div class="py-6">
-                <a href="{{site.resnexus_booking_link}}" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Book your stay</a>
+                <a href="{{site.resnexus_booking_link}}" target="_blank" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Book your stay</a>
               </div>
             </div>
           </div>

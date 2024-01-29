@@ -76,3 +76,7 @@ exclude:
 #   - vendor/ruby/
 
 resnexus_booking_link: https://resnexus.com/resnexus/reservations/book/879232F3-9986-4AFF-A3FC-2528F66B3EF9
+
+# dev keys ...
+google_maps_api_key: AIzaSyAkrBTZom3a-FHfrrOv-312k93HgUoA4SY
+google_analytics_tag: G-HEJ8CFBDYH
