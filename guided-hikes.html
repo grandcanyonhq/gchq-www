@@ -12,8 +12,8 @@ layout: default
     <div class="mt-2 leading-8">
       <div class="rounded-md bg-amber-50 px-4 py-4 text-md font-medium text-amber-800 ring-1 ring-inset ring-amber-600/20">
         <div class="mt-2 space-y-3">
-          <a href="https://book.stripe.com/test_dR6cPQgwoh1Ze9W8ww" target="_blank" class="inline-block sm:inline text-nowrap rounded-md bg-amber-600 px-3 py-2 text-md font-semibold text-amber-50 shadow-sm hover:bg-amber-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-600">Book for 1-2 people &nbsp;$499</a>
-          <a href="https://book.stripe.com/test_dR6cPQgwoh1Ze9W8ww" target="_blank" class="inline-block sm:inline text-nowrap rounded-md bg-amber-600 px-3 py-2 text-md font-semibold text-amber-50 shadow-sm hover:bg-amber-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-600">Book for 2-6 people &nbsp;$999</a>
+          <a href="{{ site.guided_hike_price_1_url }}" target="_blank" class="inline-block sm:inline text-nowrap rounded-md bg-amber-600 px-3 py-2 text-md font-semibold text-amber-50 shadow-sm hover:bg-amber-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-600">Book for 1-2 people &nbsp;$499</a>
+          <a href="{{ site.guided_hike_price_2_url }}" target="_blank" class="inline-block sm:inline text-nowrap rounded-md bg-amber-600 px-3 py-2 text-md font-semibold text-amber-50 shadow-sm hover:bg-amber-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-600">Book for 2-6 people &nbsp;$999</a>
         </div>
         <p class="mt-2 px-1">Limited availability! Book your guided hike today and we will reach out to discuss next steps.</p>
       </div>
@@ -32,7 +32,7 @@ layout: default
   <div class="mx-auto lg:mx-0">
     <ul role="list" class="mx-auto mt-1 space-y-3 divide-y divide-gray-900/10">
       <li x-data="{open: false}">
-        <button type="button" class="flex w-full items-baseline sm:items-end justify-between" x-on:click="open = !open">
+        <button type="button" class="flex w-full items-baseline sm:items-end justify-between outline-none" x-on:click="open = !open">
           <h3 class="mt-4 text-2xl font-semibold leading-8 text-gray-900 pl-2 flex">Red Mountain Trail</h3>
           <span class="flex items-center">
             <svg class="h-6 w-6" x-show="!open" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
@@ -92,7 +92,7 @@ layout: default
       </li>
 
       <li x-data="{open: false}">
-        <button type="button" class="flex w-full items-baseline sm:items-end justify-between" x-on:click="open = !open">
+        <button type="button" class="flex w-full items-baseline sm:items-end justify-between outline-none" x-on:click="open = !open">
           <h3 class="mt-4 text-2xl font-semibold leading-8 text-gray-900 pl-2 flex">Bright Angel Trail</h3>
           <span class="flex items-center">
             <svg class="h-6 w-6" x-show="!open" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
@@ -152,7 +152,7 @@ layout: default
       </li>
 
       <li x-data="{open: false}">
-        <button type="button" class="flex w-full items-baseline sm:items-end justify-between" x-on:click="open = !open">
+        <button type="button" class="flex w-full items-baseline sm:items-end justify-between outline-none" x-on:click="open = !open">
           <h3 class="mt-4 text-2xl font-semibold leading-8 text-gray-900 pl-2 flex">South Kaibab Trail</h3>
           <span class="flex items-center">
             <svg class="h-6 w-6" x-show="!open" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
@@ -206,7 +206,7 @@ layout: default
       </li>
 
       <li x-data="{open: false}">
-        <button type="button" class="flex w-full items-baseline sm:items-end justify-between" x-on:click="open = !open">
+        <button type="button" class="flex w-full items-baseline sm:items-end justify-between outline-none" x-on:click="open = !open">
           <h3 class="mt-4 text-2xl font-semibold leading-8 text-gray-900 pl-2 flex">Hermit Trail</h3>
           <span class="flex items-center">
             <svg class="h-6 w-6" x-show="!open" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
@@ -266,7 +266,7 @@ layout: default
       </li>
 
       <li x-data="{open: false}">
-        <button type="button" class="flex w-full items-baseline sm:items-end justify-between" x-on:click="open = !open">
+        <button type="button" class="flex w-full items-baseline sm:items-end justify-between outline-none" x-on:click="open = !open">
           <h3 class="mt-4 text-2xl font-semibold leading-8 text-gray-900 pl-2 flex">Grandview Trail</h3>
           <span class="flex items-center">
             <svg class="h-6 w-6" x-show="!open" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
@@ -326,7 +326,7 @@ layout: default
       </li>
 
       <li x-data="{open: false}">
-        <button type="button" class="flex w-full items-baseline sm:items-end justify-between" x-on:click="open = !open">
+        <button type="button" class="flex w-full items-baseline sm:items-end justify-between outline-none" x-on:click="open = !open">
           <h3 class="mt-4 text-2xl font-semibold leading-8 text-gray-900 pl-2 flex">Tanner Trail</h3>
           <span class="flex items-center">
             <svg class="h-6 w-6" x-show="!open" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">

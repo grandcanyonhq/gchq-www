@@ -80,3 +80,6 @@ resnexus_booking_link: https://resnexus.com/resnexus/reservations/book/879232F3-
 # dev keys ...
 google_maps_api_key: AIzaSyAkrBTZom3a-FHfrrOv-312k93HgUoA4SY
 google_analytics_tag: G-HEJ8CFBDYH
+
+guided_hike_price_1_url: https://book.stripe.com/test_dR6cPQgwoh1Ze9W8ww
+guided_hike_price_2_url: https://book.stripe.com/test_dR6cPQgwoh1Ze9W8ww
