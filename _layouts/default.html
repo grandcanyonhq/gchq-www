@@ -27,7 +27,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png" />
   </head>
-  <body class="min-w-96">
+  <body class="min-w-72">
     <header class="absolute left-0 right-0 top-0 z-40" x-data="{ open: false }">
       <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div class="flex lg:flex-1">
@@ -139,7 +139,7 @@
                 <h3 class="text-sm font-semibold leading-6 text-gray-900">Contact</h3>
                 <ul role="list" class="mt-6 space-y-4">
                   <li>
-                    <a href="mailto:{{site.email}}" class="text-sm leading-6 text-gray-600 hover:text-gray-900">{{site.email}}</a>
+                    <a href="mailto:{{site.email}}" class="text-sm leading-6 text-gray-600 hover:text-gray-900 break-words">{{site.email}}</a>
                   </li>
                   <li>
                     <a href="tel:{{site.phone}}" class="text-sm leading-6 text-gray-600 hover:text-gray-900">{{site.phone}}</a>
