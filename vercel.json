@@ -1,3 +1,8 @@
 {
-	"cleanUrls": true
+	"cleanUrls": true,
+	"build": {
+		"env": {
+			"NIXPACKS_PKGS": "vips"
+		}
+	}
 }
