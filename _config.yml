@@ -45,6 +45,7 @@ postcss:
 picture:
   source: assets/img
   output: assets/imgs
+  image_backend: imagemagick
 
 # Exclude from processing.
 # The following items will not be processed, by default.
