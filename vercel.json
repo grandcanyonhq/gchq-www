@@ -1,4 +1,4 @@
 {
 	"cleanUrls": true,
-	"installCommand": "apt-get update && apt-get install -y libvips-dev && bundle install"
+	"installCommand": "dnf install -y vips-devel && bundle install"
 }
