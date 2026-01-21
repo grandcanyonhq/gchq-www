@@ -2,7 +2,6 @@
 
 It's a static website built with [Jekyll](https://jekyllrb.com). It's nothing fancy, just boring old tech that works.
 
-
 ## Development
 
 ```
