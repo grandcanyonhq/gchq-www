@@ -7,11 +7,11 @@ media_queries:
 
 presets:
   default:
-    formats: [webp, jp2, original]
+    formats: [webp, original]
     widths: [200, 400, 800, 1600]
 
   banner:
-    formats: [webp, jp2, original]
+    formats: [webp, original]
     widths: [600, 800, 1000, 1200, 1400]
     size: 600px
     fallback_width: 600
@@ -19,7 +19,7 @@ presets:
     keep: center
 
   teaser:
-    formats: [webp, jp2, original]
+    formats: [webp, original]
     widths: [400, 600, 800, 1000, 1200, 1400]
     size: 600px
     sizes:
@@ -29,7 +29,7 @@ presets:
     keep: attention
 
   tile:
-    formats: [webp, jp2, original]
+    formats: [webp, original]
     widths: [200, 400, 600, 800, 1000, 1200, 1400]
     size: 600px
     sizes:
@@ -39,7 +39,7 @@ presets:
     keep: center
 
   gallery:
-    formats: [webp, jp2, original]
+    formats: [webp, original]
     widths: [800, 1000, 1200, 1400]
     size: 800px
     sizes:
