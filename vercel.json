@@ -1,4 +1,4 @@
 {
 	"cleanUrls": true,
-	"installCommand": "dnf install -y vips-devel && bundle install"
+	"installCommand": "dnf install -y ImageMagick && bundle install"
 }
